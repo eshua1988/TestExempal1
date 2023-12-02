@@ -11,7 +11,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let lable = UILabel()
+        lable.text = "123"
+        
+        view.addSubview(lable)
+        
+        lable.frame = view.frame
     }
 
 
